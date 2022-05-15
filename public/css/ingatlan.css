@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+body {
+    width: 80%;
+    margin: auto;
+   
+}
+
+.ujHirdetes{
+    background-color: white;
+    padding: 5px;
+}
+
+#ajanlataink,
+#ujhirdeteselkuldese {
+    text-align: center;
+}
+
+#gomb {
+    float: right;
+}
+
+img {
+    width: 30%;
+    margin: 5px;
+    ;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+    text-align: center;
+    margin: 5px;
+
+}
+
+.cimke {
+    background-color: gray;
+    height: 60px;
+    padding: 0px;
+}
+
+#erdekelGomb {
+    margin: 5px;
+}
+
+.asztaliNezet {
+    display: block;
+
+}
+
+.divElem{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .asztaliNezet {
+        display: none;
+
+    }
+    .divElem{
+        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    .egyDoboz{
+        background-color: white;
+    }
+    body{
+        background-color: aquamarine;
+    }
+}
